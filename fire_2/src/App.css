@@ -1,0 +1,18 @@
+@keyframes move {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px); 
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .shadow-custom {
+    text-shadow: 4px 4px 4px rgba(137, 88, 88, 0.5); 
+  }
+  .animate-move {
+    animation: move 2s ease-in-out infinite; 
+  }
